@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity"
+              tools:deviceIds="wear_square">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/dial_ds_0012" android:layout_centerVertical="true" android:layout_centerInParent="false" android:layout_centerHorizontal="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginLeft="0dp"
+               android:layout_alignParentTop="true"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageViewClockPlate" android:src="@drawable/dialindex_ds_0023" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+               android:layout_alignParentLeft="true"
+               android:layout_marginLeft="0dp"
+               android:layout_alignParentTop="true"/>
+
+    <com.nag.android.fairyinawatch.HourHandView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageViewHourHand" android:src="@drawable/hourhand_ds_0001" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+                                                android:layout_alignParentLeft="true"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_alignParentTop="true"/>
+
+    <com.nag.android.fairyinawatch.MinuteHandView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageViewMinuteHand" android:src="@drawable/minutehand_ds_0001" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+                                                  android:layout_alignParentLeft="true"
+                                                  android:layout_marginLeft="0dp"
+                                                  android:layout_alignParentTop="true"/>
+
+    <com.nag.android.util.FlipView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/animationViewFairy" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+                                   android:layout_alignParentLeft="true"
+                                   android:layout_marginLeft="0dp"
+                                   android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
