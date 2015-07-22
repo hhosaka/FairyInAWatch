@@ -65,6 +65,6 @@ public class MainActivity extends Activity implements ShakeManager.OnShakeListen
 
 		@Override
 		public void onTap() {
-		fairy.setSource(R.array.fairy_blueguy_enter, INTERVAL, false);
+		fairy.setSource(R.array.fairy_enter, INTERVAL, false);
 	}
 }

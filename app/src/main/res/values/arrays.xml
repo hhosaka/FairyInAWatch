@@ -34,4 +34,28 @@
         <item>@drawable/fairy_blueguy_enter_012</item>
         <item>@drawable/fairy_blueguy_enter_013</item>
     </array>
+    <array name="fairy_enter">
+        <item>@drawable/fairy001</item>
+        <item>@drawable/fairy002</item>
+        <item>@drawable/fairy003</item>
+        <item>@drawable/fairy004</item>
+        <item>@drawable/fairy005</item>
+        <item>@drawable/fairy006</item>
+        <item>@drawable/fairy007</item>
+        <item>@drawable/fairy008</item>
+    </array>
+    <array name="fairy_windup">
+        <item>@drawable/fairy009</item>
+        <item>@drawable/fairy010</item>
+        <item>@drawable/fairy011</item>
+        <item>@drawable/fairy012</item>
+        <item>@drawable/fairy013</item>
+        <item>@drawable/fairy014</item>
+        <item>@drawable/fairy009</item>
+        <item>@drawable/fairy010</item>
+        <item>@drawable/fairy011</item>
+        <item>@drawable/fairy012</item>
+        <item>@drawable/fairy013</item>
+        <item>@drawable/fairy014</item>
+    </array>
 </resources>
