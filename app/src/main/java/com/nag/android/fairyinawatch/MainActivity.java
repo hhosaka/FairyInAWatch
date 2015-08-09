@@ -3,8 +3,8 @@ package com.nag.android.fairyinawatch;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
-import android.widget.TextView;
 
+import com.nag.android.fairy.FairyShadowGuy;
 import com.nag.android.fairyviewerengine.Fairy;
 import com.nag.android.fairyviewerengine.ShakeManager;
 import com.nag.android.fairyviewerengine.TapManager;
@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements ShakeManager.OnShakeListen
 				shakemanager = new ShakeManager(MainActivity.this);
 				findViewById(R.id.watch_view_stub).setOnTouchListener(new TapManager(MainActivity.this));
 				((FlipView)findViewById(R.id.animationViewFairy)).setAngleMeter(shakemanager);
+				fairy.init(MainActivity.this, MainActivity.this);
 			}
 		});
 	}
